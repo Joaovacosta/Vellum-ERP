@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"&gt;
+    <style>
+
+        img {
+            max-width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+
+        .imgs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+         h1 {
+            font-size: 70px;
+        }
+
+        .bi-list {
+            display: none;
+        }
+
+
+        @media screen and (max-width: 768px){
+            main {
+                grid-template-columns: 1fr;
+            }
+
+                h1 {
+                    font-size: 40px;
+                }
+        }
+
+        @media screen and (max-width: 478px){
+            main {
+                grid-template-columns: 1fr;
+            }
+
+                h1 {
+                    font-size: 20px;
+                }
+
+                    .menu {
+                        display: none;
+                    }
+
+                    .bi-list {
+                        display: block;
+                    }
+
+                    header {
+                        display: block;
+                    }
+                    .logo {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .input {
+                        margin-top: 20px;
+                        width: 100%;
+                    }
+
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">
+            <div>Logo</div>
+              <i class="bi bi-list"></i>
+        </div>
+        <div>
+            <input class="input" type="search" name="" id="">
+        </div>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Entrar</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <h1>Teste de Titulo</h1>
+    </div>
+    <main class="container">
+        <div>
+            <img src="./Image 01.png" alt="">
+        </div>
+        <div class="imgs">
+            <img src="./Image 01.png" alt="">
+            <img src="./Image 01.png" alt="">
+            <img src="./Image 01.png" alt="">
+            <img src="./Image 01.png" alt="">
+        </div>
+    </main>
+</body>
+</html>
