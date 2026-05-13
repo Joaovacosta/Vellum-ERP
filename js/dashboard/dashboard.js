@@ -1,3 +1,5 @@
+// Utilizaçao de IA
+
 document.addEventListener('DOMContentLoaded', function() {
     
     const botoesVerificar = document.querySelectorAll('.btn-verificar');
