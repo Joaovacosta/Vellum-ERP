@@ -1,4 +1,4 @@
-<h1>Documentação Individual — Painel Administrativo ERP </h1>
+<h1>Documentação — Painel Administrativo ERP </h1>
 
 <hr>
 - Nome do Projeto: Vellum ERP
